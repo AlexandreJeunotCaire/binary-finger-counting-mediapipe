@@ -27,7 +27,9 @@ def main():
 
         binary_mode = True
         while cap.isOpened():
+
             cpt = 0
+            
             _, image = cap.read()
             image = cv2.cvtColor(cv2.flip(image, 1), cv2.COLOR_BGR2RGB)
             image.flags.writeable = False
