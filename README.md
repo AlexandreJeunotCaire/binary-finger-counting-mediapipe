@@ -1,4 +1,4 @@
-# Unbeatable Rock Paper Scissors
+# Binary Finger Counting
 
 ## Auteur
 
